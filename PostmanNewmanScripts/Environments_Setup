@@ -1,0 +1,8 @@
+Get Postman: https://www.getpostman.com
+Get Newman: https://www.npmjs.com/package/newman
+
+Sample terminal requests:
+newman run hl50.json -d Rock2.csv -n 50 -r json
+// -d: data variable input
+// -n: number of iterations
+// -r: output format

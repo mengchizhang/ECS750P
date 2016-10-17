@@ -1,0 +1,439 @@
+{
+    "similartracks": {
+        "@attr": {
+            "artist": "MGMT"
+        },
+        "track": [
+            {
+                "artist": {
+                    "mbid": "c485632c-b784-4ee9-8ea1-c5fb365681fc",
+                    "name": "MGMT",
+                    "url": "https://www.last.fm/music/MGMT"
+                },
+                "duration": 261,
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/e3be6277944d4135b21d3a0aaee74e82.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/e3be6277944d4135b21d3a0aaee74e82.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/e3be6277944d4135b21d3a0aaee74e82.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/e3be6277944d4135b21d3a0aaee74e82.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/e3be6277944d4135b21d3a0aaee74e82.png",
+                        "size": "mega"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/e3be6277944d4135b21d3a0aaee74e82.png",
+                        "size": ""
+                    }
+                ],
+                "match": 1.0,
+                "mbid": "24436eea-e79f-4592-b7f8-3e9bfe01f483",
+                "name": "Time to Pretend",
+                "playcount": 11494379,
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/MGMT/_/Time+to+Pretend"
+            },
+            {
+                "artist": {
+                    "mbid": "c485632c-b784-4ee9-8ea1-c5fb365681fc",
+                    "name": "MGMT",
+                    "url": "https://www.last.fm/music/MGMT"
+                },
+                "duration": 229,
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/e3be6277944d4135b21d3a0aaee74e82.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/e3be6277944d4135b21d3a0aaee74e82.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/e3be6277944d4135b21d3a0aaee74e82.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/e3be6277944d4135b21d3a0aaee74e82.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/e3be6277944d4135b21d3a0aaee74e82.png",
+                        "size": "mega"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/e3be6277944d4135b21d3a0aaee74e82.png",
+                        "size": ""
+                    }
+                ],
+                "match": 0.968866,
+                "mbid": "bb8dba10-4ce2-49c5-b70f-87beaffb4b2d",
+                "name": "Electric Feel",
+                "playcount": 11074538,
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/MGMT/_/Electric+Feel"
+            },
+            {
+                "artist": {
+                    "mbid": "6d7b7cd4-254b-4c25-83f6-dd20f98ceacd",
+                    "name": "M83",
+                    "url": "https://www.last.fm/music/M83"
+                },
+                "duration": 244,
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/35ff447199a04ba78abbe1c2b69d0d9a.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/35ff447199a04ba78abbe1c2b69d0d9a.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/35ff447199a04ba78abbe1c2b69d0d9a.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/35ff447199a04ba78abbe1c2b69d0d9a.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/35ff447199a04ba78abbe1c2b69d0d9a.png",
+                        "size": "mega"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/35ff447199a04ba78abbe1c2b69d0d9a.png",
+                        "size": ""
+                    }
+                ],
+                "match": 0.295965,
+                "mbid": "e83bc6ba-eff9-412c-8c11-5153672f25e7",
+                "name": "Midnight City",
+                "playcount": 9179971,
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/M83/_/Midnight+City"
+            },
+            {
+                "artist": {
+                    "mbid": "ec5bae34-cd8d-47cb-aa66-60bc0fdce77b",
+                    "name": "Phoenix",
+                    "url": "https://www.last.fm/music/Phoenix"
+                },
+                "duration": 200,
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/eb38c58009654378bbb18c1c40b001ea.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/eb38c58009654378bbb18c1c40b001ea.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/eb38c58009654378bbb18c1c40b001ea.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/eb38c58009654378bbb18c1c40b001ea.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/eb38c58009654378bbb18c1c40b001ea.png",
+                        "size": "mega"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/eb38c58009654378bbb18c1c40b001ea.png",
+                        "size": ""
+                    }
+                ],
+                "match": 0.286587,
+                "mbid": "98bda91a-cb9c-4391-b84a-25858cdc3f37",
+                "name": "1901",
+                "playcount": 7926206,
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Phoenix/_/1901"
+            },
+            {
+                "artist": {
+                    "mbid": "e0e1a584-dd0a-4bd1-88d1-c4c62895039d",
+                    "name": "Foster the People",
+                    "url": "https://www.last.fm/music/Foster+the+People"
+                },
+                "duration": 204,
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3b61408e62554385c3604c11a98a5e9c.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3b61408e62554385c3604c11a98a5e9c.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3b61408e62554385c3604c11a98a5e9c.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3b61408e62554385c3604c11a98a5e9c.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/3b61408e62554385c3604c11a98a5e9c.png",
+                        "size": "mega"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/3b61408e62554385c3604c11a98a5e9c.png",
+                        "size": ""
+                    }
+                ],
+                "match": 0.275761,
+                "mbid": "c373d6db-4340-4ec5-891a-8130b4440ded",
+                "name": "Houdini",
+                "playcount": 4763210,
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Foster+the+People/_/Houdini"
+            },
+            {
+                "artist": {
+                    "mbid": "ec5bae34-cd8d-47cb-aa66-60bc0fdce77b",
+                    "name": "Phoenix",
+                    "url": "https://www.last.fm/music/Phoenix"
+                },
+                "duration": 241,
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/eb38c58009654378bbb18c1c40b001ea.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/eb38c58009654378bbb18c1c40b001ea.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/eb38c58009654378bbb18c1c40b001ea.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/eb38c58009654378bbb18c1c40b001ea.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/eb38c58009654378bbb18c1c40b001ea.png",
+                        "size": "mega"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/eb38c58009654378bbb18c1c40b001ea.png",
+                        "size": ""
+                    }
+                ],
+                "match": 0.2673,
+                "mbid": "21664467-2453-4867-8a0e-fca8826cd054",
+                "name": "Lisztomania",
+                "playcount": 7490375,
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Phoenix/_/Lisztomania"
+            },
+            {
+                "artist": {
+                    "mbid": "6f1de078-6684-4792-820d-2ffad64c15ed",
+                    "name": "Two Door Cinema Club",
+                    "url": "https://www.last.fm/music/Two+Door+Cinema+Club"
+                },
+                "duration": 190,
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/0b560c88ef154dd0a172e82f5d066e17.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/0b560c88ef154dd0a172e82f5d066e17.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/0b560c88ef154dd0a172e82f5d066e17.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/0b560c88ef154dd0a172e82f5d066e17.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/0b560c88ef154dd0a172e82f5d066e17.png",
+                        "size": "mega"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/0b560c88ef154dd0a172e82f5d066e17.png",
+                        "size": ""
+                    }
+                ],
+                "match": 0.263696,
+                "mbid": "7d8390e4-694c-4fb3-ad9e-5a38e5654443",
+                "name": "Something Good Can Work",
+                "playcount": 6088443,
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Two+Door+Cinema+Club/_/Something+Good+Can+Work"
+            },
+            {
+                "artist": {
+                    "mbid": "ac7e838c-3d95-47c2-92a9-81767ad7c217",
+                    "name": "Empire of the Sun",
+                    "url": "https://www.last.fm/music/Empire+of+the+Sun"
+                },
+                "duration": 197,
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/56549c9942084c46a851914995680bb8.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/56549c9942084c46a851914995680bb8.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/56549c9942084c46a851914995680bb8.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/56549c9942084c46a851914995680bb8.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/56549c9942084c46a851914995680bb8.png",
+                        "size": "mega"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/56549c9942084c46a851914995680bb8.png",
+                        "size": ""
+                    }
+                ],
+                "match": 0.248831,
+                "mbid": "170dfa5d-0235-446d-9f3d-d235c01abc91",
+                "name": "Walking on a Dream",
+                "playcount": 6172352,
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Empire+of+the+Sun/_/Walking+on+a+Dream"
+            },
+            {
+                "artist": {
+                    "mbid": "e0e1a584-dd0a-4bd1-88d1-c4c62895039d",
+                    "name": "Foster the People",
+                    "url": "https://www.last.fm/music/Foster+the+People"
+                },
+                "duration": 270,
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3b61408e62554385c3604c11a98a5e9c.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3b61408e62554385c3604c11a98a5e9c.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3b61408e62554385c3604c11a98a5e9c.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3b61408e62554385c3604c11a98a5e9c.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/3b61408e62554385c3604c11a98a5e9c.png",
+                        "size": "mega"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/3b61408e62554385c3604c11a98a5e9c.png",
+                        "size": ""
+                    }
+                ],
+                "match": 0.247345,
+                "mbid": "0418e757-5adb-4b9c-b166-4dec6d949b95",
+                "name": "Helena Beat",
+                "playcount": 4694455,
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Foster+the+People/_/Helena+Beat"
+            },
+            {
+                "artist": {
+                    "mbid": "daeec599-bf5d-4428-994a-e76ba5f86e2f",
+                    "name": "Passion Pit",
+                    "url": "https://www.last.fm/music/Passion+Pit"
+                },
+                "duration": 224,
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/9c57bfa57de840e4af2debba9678677f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/9c57bfa57de840e4af2debba9678677f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/9c57bfa57de840e4af2debba9678677f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9c57bfa57de840e4af2debba9678677f.png",
+                        "size": "extralarge"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/9c57bfa57de840e4af2debba9678677f.png",
+                        "size": "mega"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/9c57bfa57de840e4af2debba9678677f.png",
+                        "size": ""
+                    }
+                ],
+                "match": 0.238837,
+                "mbid": "080d1de1-d1d0-4818-b25d-49f9451ab7cb",
+                "name": "Take a Walk",
+                "playcount": 3193842,
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Passion+Pit/_/Take+a+Walk"
+            }
+        ]
+    }
+}

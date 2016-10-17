@@ -1,0 +1,734 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Lastfm50",
+		"_postman_id": "d0dac255-4149-3c15-b821-9cf194fa1592",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetSimilarTracks",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": "tests[\"Data Available\"] = responseBody.has(\"mbid\");\n\nif (responseBody.has(\"mbid\")) {\n    \n    try {\n        \n        var data = JSON.parse(responseBody);\n        var mbid = [];\n        for (var i = 0; i < 50; i++) {\n            mbid[i] = data.similartracks.track[i].mbid;\n        }\n    }\n    \n    catch(e){\n        console.log(e);\n    }\n    \n    for (var i = 0; i < 50; i++) {\n        postman.setGlobalVariable(\"mbid\"+i, mbid[i]);\n    }\n    \n} else {\n    \n    for (var i = 0; i < 50; i++) {\n        postman.setGlobalVariable(\"mbid\"+i, 0);\n    }\n}\n\n//console.log(mbid);"
+					}
+				}
+			],
+			"request": {
+				"url": "http://ws.audioscrobbler.com/2.0/?method=track.getsimilar&artist={{Artist Name}}&track={{Track Name}}&api_key=f4d7e72cf29c181202e347b220960e61&format=json&limit=50",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid01",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid0}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid02",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid1}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid03",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid2}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid04",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid3}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid05",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid4}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid06",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid5}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid07",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid6}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid08",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid7}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid09",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid8}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid10",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid9}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid11",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid10}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid12",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid11}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid13",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid12}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid14",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid13}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid15",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid14}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid16",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid15}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid17",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid16}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid18",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid17}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid19",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid18}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid20",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid19}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid21",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid20}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid22",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid21}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid23",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid22}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid24",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid23}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid25",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid24}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid26",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid25}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid27",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid26}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid28",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid27}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid29",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid28}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid30",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid29}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid31",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid30}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid32",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid31}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid33",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid32}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid34",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid33}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid35",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid34}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid36",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid35}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid37",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid36}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid38",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid37}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid39",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid38}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid40",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid39}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid41",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid40}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid42",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid41}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid43",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid42}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid44",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid43}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid45",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid44}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid46",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid45}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid47",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid46}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid48",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid47}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid49",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid48}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "mbid50",
+			"request": {
+				"url": "https://acousticbrainz.org/api/v1/{{mbid49}}/high-level",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
